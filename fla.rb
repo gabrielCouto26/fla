@@ -14,14 +14,14 @@ games.each { |game|
   score_mandante = game["homeCompetitor"]["score"]
   score_visitante = game["awayCompetitor"]["score"]
   
-  hash = {
+  jogo = {
     "competicao" => competicao,
     "data" => data,
     "mandante" => "#{mandante} #{score_mandante}",
     "visitante" => "#{visitante} #{score_visitante}"
   }
 
-  jogos.push hash
+  jogos.push jogo
 } 
 
 print jogos
