@@ -1,4 +1,4 @@
-# Fla
+# Jogos do Flamengo
 
 Projeto com intuito único de buscar os próximos jogos do Flamengo, de qualquer competição, de maneira fácil e rápida pelo terminal, a partir do endpoint da [365 Scores](https://www.365scores.com/pt-br).
 
